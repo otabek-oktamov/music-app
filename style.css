@@ -1,0 +1,58 @@
+.class{
+  display: flex;
+  flex-direction: column;
+}
+.first{
+    z-index: 1;
+    height: 20vh;
+    cursor: pointer;
+    background: rgb(248, 47, 47);
+}
+.second{
+    z-index: 1;
+    height: 20vh;
+    cursor: pointer;
+    background: rgb(57, 53, 250);
+}
+.three{
+    z-index: 1;
+    height: 20vh;
+    cursor: pointer;
+    background: rgb(53, 250, 63);
+}
+.four{
+    z-index: 1;
+    height: 20vh;
+    cursor: pointer;
+    background: rgb(230, 250, 53);
+}
+.five{
+    z-index: 1;
+    height: 20vh;
+    cursor: pointer;
+    background: rgb(250, 41, 139);
+}
+.line1{
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    background: #333;
+    opacity: 0.5;
+    top: 50%;
+    animation: hi 5s ease alternate-reverse;
+}
+
+@keyframes hi{
+    0%{
+        opacity: 0.1;
+        height: 30vh;
+    }
+    20%{
+        opacity: 0.5;
+        height: 10vh;
+    }
+    50%{
+        opacity: 0.5;
+        height: 50vh;
+    }
+}
